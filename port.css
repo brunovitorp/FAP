@@ -141,6 +141,7 @@ h3 {
 .fotos {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 colunas igualmente espaçadas */
+    grid-template-rows: repeat(3, 1fr);
     gap: 20px; /* Espaçamento entre as imagens */
 }
 
