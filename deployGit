@@ -1,0 +1,35 @@
+Crie uma conta no GitHub
+Crie um Repositório no GitHub:
+Crie um repositório público
+Configure o Git Localmente:
+    Se você ainda não tem o Git instalado no seu computador, instale-o a partir do site oficial (https://git-scm.com/).
+Abra um terminal ou prompt de comando.
+Navegue até o diretório do seu projeto.
+Inicialize um Repositório Git Local:
+
+Execute os seguintes comandos no seu terminal:
+git init
+git add .
+git commit -m "Primeiro commit"
+
+Vincule seu repositório local ao repositório remoto no GitHub com o seguinte comando:
+
+git remote add origin URL_DO_SEU_REPOSITORIO
+
+Envie os Arquivos para o GitHub:
+
+Use o seguinte comando para enviar seus arquivos para o GitHub:
+
+git push -u origin master
+
+Habilite o GitHub Pages:
+Vá para as configurações do seu repositório no GitHub.
+Role para baixo até a seção "GitHub Pages".
+No menu suspenso "Source", selecione a branch master ou a branch que você deseja usar para o deploy.
+Clique em "Save".
+Acesse o Seu Site:
+
+Após configurar o GitHub Pages, você verá um link no mesmo local nas configurações do seu repositório. Este link levará ao seu site publicado.
+
+Atualize seu Site:
+Sempre que fizer alterações no seu site, você pode enviá-las para o GitHub. O GitHub Pages atualizará automaticamente o site.
