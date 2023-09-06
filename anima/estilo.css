@@ -1,0 +1,57 @@
+/* Esta regra define um estilo para o corpo (body) da página. */
+body {
+    /* Flexbox é usado para centralizar o elemento na página. */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Define a altura do corpo como 100% da altura da janela (viewport height). */
+    margin: 0; /* Remove as margens padrão para evitar espaços em branco. */
+    background-color: #f0f0f0; /* Cor de fundo para a página. */
+}
+
+/* Esta regra define um estilo para o elemento com a classe "circle". */
+.circle {
+    width: 100px; /* Largura do círculo. */
+    height: 100px; /* Altura do círculo. */
+    background-color: #3498db; /* Cor de fundo do círculo. */
+    border-radius: 50%; /* Torna o elemento um círculo ajustando o raio da borda. */
+    
+    /* Define a animação chamada "moveCircle" que será aplicada a este elemento. */
+    animation: moveCircle 2s ease-in-out infinite;
+}
+
+/* Esta regra define a animação "moveCircle". */
+@keyframes moveCircle {
+    0% {
+        transform: translateX(0); /* Começa sem nenhuma translação horizontal. */
+    }
+    50% {
+        transform: translateX(200px); /* Aos 50% da animação, translação para a direita em 200px. */
+    }
+    100% {
+        transform: translateX(0); /* Retorna à posição inicial no final da animação. */
+    }
+}
+
+.shape {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db; /* Cor de fundo do quadrado/círculo. */
+    
+    /* Define a animação chamada "transformShape" que será aplicada a este elemento. */
+    animation: transformShape 3s ease-in-out infinite;
+    border-radius: 0%; /* Começa como um quadrado */
+}
+
+/* Define a animação "transformShape". */
+@keyframes transformShape {
+    0% {
+        border-radius: 0%; /* Quadrado no início (0% do tempo). */
+    }
+    50% {
+        border-radius: 50%; /* Metade do caminho se torna um círculo (50% do tempo). */
+    }
+    100% {
+        border-radius: 0%; /* Volta a ser um quadrado no final (100% do tempo). */
+    }
+}
