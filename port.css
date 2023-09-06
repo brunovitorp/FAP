@@ -137,7 +137,7 @@ p {
 
 .projeto:hover {
     background-color: #b6b1b1; /* Muda a cor de fundo no hover */
-    cursor: pointer; /* Altera o cursor para um ícone de mão (ponteiro) no hover */
+    cursor: progress; /* Altera o cursor para um ícone de mão (ponteiro) no hover */
     transform: scale(1.05); /* Aplica uma escala (zoom) no hover */
 }
 
