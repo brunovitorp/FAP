@@ -130,6 +130,15 @@ p {
 
     /* Adiciona margem na parte superior e inferior dos elementos */
     margin: 20px 0;
+
+    transition: background-color 1.5s; /* Adiciona uma transição suave na mudança de cor de fundo */
+
+}
+
+.projeto:hover {
+    background-color: #b6b1b1; /* Muda a cor de fundo no hover */
+    cursor: pointer; /* Altera o cursor para um ícone de mão (ponteiro) no hover */
+    transform: scale(1.05); /* Aplica uma escala (zoom) no hover */
 }
 
 /* Estilos para os títulos dos projetos */
@@ -155,6 +164,9 @@ h3 {
 .imagem img {
     max-width: 100%; /* Imagens ajustadas para caber nas caixas */
     height: auto; /* Mantém a proporção original da imagem */
+}
+.imagem:hover{
+    transform: scale(1.5); /* Aplica uma escala (zoom) no hover */
 }
 
 /* Estilos para o rodapé */
