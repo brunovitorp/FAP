@@ -137,6 +137,24 @@ h3 {
     /* Define a cor do texto para os títulos dos projetos */
     color: #333;
 }
+/* Estilos para a seção "Galeria" */
+.fotos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas igualmente espaçadas */
+    gap: 20px; /* Espaçamento entre as imagens */
+}
+
+/* Estilos para as imagens */
+.imagem {
+    border: 1px solid #ccc; /* Uma borda fina para cada imagem */
+    padding: 10px; /* Espaçamento interno para as imagens */
+    text-align: center; /* Centralizar o conteúdo das imagens */
+}
+
+.imagem img {
+    max-width: 100%; /* Imagens ajustadas para caber nas caixas */
+    height: auto; /* Mantém a proporção original da imagem */
+}
 
 /* Estilos para o rodapé */
 footer {
@@ -152,3 +170,9 @@ footer {
     /* Adiciona preenchimento na parte superior e inferior do rodapé */
     padding: 10px 0;
 }
+
+
+
+
+
+
